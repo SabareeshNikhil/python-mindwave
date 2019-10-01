@@ -1,0 +1,5 @@
+username: ""
+client_id: ""
+client_secret: "" 
+device_id: ""
+redirect_uri: "https://localhost:8080"

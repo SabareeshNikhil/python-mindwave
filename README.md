@@ -1,3 +1,31 @@
+Instructions (for Mac):
+
+1. Update config.yaml - username can be found by right-clicking on any playlist/song/artist in Spotify and clicking on Share -> Copy Spotify URI. The first part is the username. The Client ID and Client Secret can be retrieved from the Spotify developer page (sign up for a profile if you do not have one yet). The device ID can be obtained from this page - https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/
+
+2. Identify serial port connected to MindWave by running the following shell command - system_profiler SPBluetoothDataType | grep MindWaveMobile | tail -1 
+
+3. Install requirements - pip2 install -r requirements.txt
+
+4. Run the code - python2 read.py 17 (instead of 17, enter the port number you get from step 2) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Changes for this Fork
 ---------------------
 
